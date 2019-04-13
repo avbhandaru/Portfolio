@@ -6,7 +6,7 @@ Website Adventures
 
 My current directory tree:
 
-```shell
+```console
 Portfolio/
     README.md
     script.js 
