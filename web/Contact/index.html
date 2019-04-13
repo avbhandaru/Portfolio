@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Akhil</title>
+</head>
+
+<body>
+    <h1>Contact Form</h1>
+
+    <p>
+        <em>If you are interested in contacting me, please fill out the following
+        form.</em>
+    </p>
+
+    <!-- Add action and update simple.php -->
+    <form method="post">
+        <fieldset>
+            <legend>Information:</legend>
+            <p>
+                Name:<input type="text" value="John Doe" name="name">
+            </p>
+    
+            <p>
+                Email Address: <input type="text" value="jdoe@mail.com" name="email">
+            </p>
+    
+            <p>
+                Check <strong>Yes</strong> if you need a reply:
+            </p>
+            
+            <p>
+                Yes: <input type="checkbox">
+            </p>
+    
+        </fieldset>
+
+        <fieldset>
+            <legend>Message:</legend>
+    
+            <p><textarea rows="5" cols="80">
+                Hi Akhil ...
+            </textarea></p>
+
+            <p>
+                or upload a file:
+            </p>
+
+            <p>
+                <label for="uploadfile">File name: </label>
+                <input type="file" name="uploadfile" id="uploadfile">
+            </p>
+
+        </fieldset>
+
+        <p><input type="submit"></p>
+    </form>
+
+    <p>
+        <a href="../Learning/index.html">root</a>
+    </p>
+    
+</body>
+</html>
