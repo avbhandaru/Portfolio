@@ -6,6 +6,7 @@ Website Adventures
 
 My current directory tree:
 
+```shell
 Portfolio/
     README.md
     script.js 
@@ -29,3 +30,4 @@ Portfolio/
             assets/
                 images/
                     ...
+```
