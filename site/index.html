@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            akhil.io
+        </title>
+
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <div class="navbar">
+            <a href="index.html">home</a>
+        </div>
+
+        <h1>akhil</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <td>Header 1</td>
+                    <td>Header 2</td>
+                    <td>Header 3</td>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td>Footer 1</td>
+                    <td>Footer 2</td>
+                    <td>Footer 3</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                    <td>Cell 3</td>
+                </tr>
+                <tr>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                    <td>Cell 3</td>
+                </tr>
+                <tr>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                    <td>Cell 3</td>
+                </tr>
+                <!-- etc. -->
+            </tbody>
+        </table>
+
+        <h2>Tabbable Links</h2>
+        <ul>
+            <li><a href="here.html" tabindex="1" title="Why I'm rubbish at writing link text: An explanation and an apology.">Here</a></li>
+            <li><a href="there.html" tabindex="3">There</a></li>
+            <li><a href="limbo.html" tabindex="2">Limbo</a></li>
+        </ul>
+
+        <h2>Forms</h2>
+
+        <form method="get">
+            <select name="country">
+                <optgroup label="Africa">
+                    <option value="gam">Gambia</option>
+                    <option value="mad">Madagascar</option>
+                    <option value="nam">Namibia</option>
+                </optgroup>
+                <optgroup label="Europe">
+                    <option value="fra">France</option>
+                    <option value="rus">Russia</option>
+                    <option value="uk">UK</option>
+                </optgroup>
+                <optgroup label="North America">
+                    <option value="can">Canada</option>
+                    <option value="mex">Mexico</option>
+                    <option value="usa">USA</option>
+                </optgroup>
+            </select>
+            <br>
+            <input type="search" name="search"><br>
+
+            <input type="tel" name="telephone_number"><br>
+            <input type="url" name="web_address"><br>
+            <input type="email" name="email_address"><br>
+
+            <input type="number" name="quantity" step="2" min="20" max="30"><br>
+            <input type="range" name="temperature" min="15" max="25" step="0.5" value="18.5"><br>
+
+            <input type="date" name="date"><br>
+
+            <input name="color" type="color" value="#ff8800"><br>
+
+            <input name="country" list="country_name">
+            <datalist id="country_name">
+                <option value="Afghanistan">
+                <option value="Albania">
+                <option value="Algeria">
+                <option value="Andorra">
+                <option value="Armenia">
+                <option value="Australia">
+                <option value="Austria">
+                <option value="Azerbaijan">
+                <!-- etc. -->
+            </datalist>
+
+        </form>
+        <br>
+        <video src="../../../../Movies/Kubo.And.The.Two.Strings.2016.1080p.BluRay.x264-[YTS.AG].mp4" height="400" width="800" controls></video>
+    </body>
+</html>

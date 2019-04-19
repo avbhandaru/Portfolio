@@ -3,10 +3,24 @@
 
 <head>
     <title>Akhil</title>
-    <link rel="stylesheet" type="text/css" href="../../style.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../Learning/assets/images/life.ico">
 </head>
 
 <body>
+    <div class="navbar">
+        <a href="../Learning/index.html">Home</a>
+        <a href="../akhil/index.html" accesskey="s">Akhil</a>
+        <a href="../Schedule/index.html">Schedule</a>
+        <a href="../Contact/index.html">Contact</a>
+    </div>
+    <!-- <header>
+        <em>
+            Real server related stuff is coming soon. Will be a bit until I can
+            learn JQuery.
+        </em>
+    </header> -->
+
     <h1>Contact Form</h1>
 
     <p>
@@ -19,11 +33,13 @@
         <fieldset>
             <legend>Information:</legend>
             <p>
-                Name:<input type="text" value="John Doe" name="name">
+                <label for="name">Name</label>
+                <input type="text" value="John Doe" name="name" id="name" autofocus>
             </p>
     
             <p>
-                Email Address: <input type="text" value="jdoe@mail.com" name="email">
+                <label for="email">Email Address</label>
+                <input type="text" value="jdoe@mail.com" name="email" id="email">
             </p>
     
             <p>
@@ -60,6 +76,10 @@
     <p>
         <a href="../Learning/index.html">root</a>
     </p>
+
+    <!-- <footer>
+        Copyrighted (just kidding) 2019
+    </footer> -->
     
 </body>
 </html>

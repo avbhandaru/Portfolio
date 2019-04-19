@@ -1,0 +1,137 @@
+body {
+
+    overflow-wrap: break-word;
+
+    border-top: 0.5in solid rgba(0, 0, 0, 0.1);
+    border-bottom: 0.5in solid rgba(0, 0, 0, 0.1);
+    border-left: 3in solid rgba(0, 0, 0, 0.1);
+    border-right: 3in solid rgba(0, 0, 0, 0.1);
+
+    padding: 10px;
+
+    background-color: white;
+    /* background-image: url("axolotl.jpg"); */
+
+    font-family: "Lucida Console", Monaco, monospace;
+    /* font-variant: small-caps; */
+    font-size: 12pt;
+    color: rgba(0, 0, 0, 0.7);
+
+    /* text-decoration: line-through; */
+    /* word-spacing: 5mm; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* font-size: 1.5em; */
+    /* margin: 20px; */
+
+    color: rgba(0, 0, 0, 0.8); /* HSL color saturation */
+    background-color: rgba(186, 236, 234, 0.651);
+    font-family: "Courier New", Monaco, monospace;
+    /* font-variant: normal; */
+}
+
+h2 {
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: rgba(0, 0, 100, .4);
+}
+
+a {
+    color: rgb(113, 206, 206);
+}
+
+ul img {
+    border: 20px solid rgba(102, 24, 24, 0.781);
+    padding: 5px;
+}
+
+abbr {
+    font-size: 1em;
+    color: blue;
+}
+
+strong {
+    font-style: italic;
+}
+
+/* p {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 20px;
+    color: black;
+} */
+
+fieldset {
+    /* Figure out how to make fieldset form have a border */
+    border: 0;
+}
+
+fieldset pre {
+    /* padding: 20px; */
+
+    border-radius: 25px;
+    background-color: rgba(228, 148, 148, 0.37);
+    color: black;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 57%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+} */
+
+/* code {
+
+}
+
+code var {
+
+}
+
+code samp {
+
+}
+
+code kbd {
+
+} */
+
+dfn {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table caption {
+    color: blue;
+    caption-side: bottom;
+    font-size: 1.5em;
+}
+
+table colgroup .alternative {
+    background-color: rgba(150, 51, 51, 0.1);
+}
